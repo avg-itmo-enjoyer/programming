@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Created-By: s312749
+Main-Class: main.Main
+Class-Path: lib/Pokemon.jar
