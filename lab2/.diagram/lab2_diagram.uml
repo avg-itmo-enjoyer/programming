@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Users/YAROSLAV/Desktop/programming-master/lab2</OriginalElement>
+  <nodes>
+    <node x="1960.9223358217919" y="282.650327100369">main.move.HyperVoice</node>
+    <node x="1839.3601958814493" y="422.46938041728794">main.move.Refresh</node>
+    <node x="1652.8389039067217" y="194.65139149669346">main.move.AncientPower</node>
+    <node x="1513.9588846084005" y="411.82653051615256">main.move.FocusEnergy</node>
+    <node x="1466.5313667448163" y="322.0299473311639">main.move.DoubleHit</node>
+    <node x="1156.2879882124082" y="300.02025994973496">main.move.Constrict</node>
+    <node x="1248.2689633558896" y="85.33731884524032">main.move.WildCharge</node>
+    <node x="314.4068475325805" y="99.14502314616931">main.pokemon.ExtendedPokemon</node>
+    <node x="906.9686031898398" y="161.84213526213205">main.pokemon.Lileep</node>
+    <node x="583.1807448094546" y="353.30074089184757">main.pokemon.Hydreigon</node>
+    <node x="1096.6198384994186" y="118.96157500054433">main.move.Slam</node>
+    <node x="766.4795134651637" y="260.74515359905456">main.pokemon.Deino</node>
+    <node x="602.3665329200046" y="231.40980833919468">main.pokemon.Cradily</node>
+    <node x="737.8112677958959" y="131.38658797157956">main.pokemon.Audino</node>
+    <node x="855.4082252973346" y="-13.662470805795039">main.move.StoneEdge</node>
+    <node x="422.8887822153975" y="248.42850164435154">main.pokemon.Zweilous</node>
+    <node x="264.3840411069021" y="365.5061197438166">main.move.ConfuseRay</node>
+    <node x="115.20101414695534" y="237.1462062977694">main.move.Rest</node>
+    <node x="32.47070689192074" y="426.1908102876449">main.Main</node>
+    <node x="-97.26428079883323" y="337.10541254832725">main.move.DragonPulse</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="main.pokemon.Hydreigon" target="main.pokemon.ExtendedPokemon" relationship="GENERALIZATION">
+      <point x="2.551905454311054E-4" y="-13.99974089184758" />
+      <point x="648.181" y="315.0" />
+      <point x="574.0" y="315.0" />
+      <point x="574.0" y="130.64499999999998" />
+      <point x="115.5001524674195" y="-2.3146169311871745E-5" />
+    </edge>
+    <edge source="main.pokemon.Cradily" target="main.pokemon.ExtendedPokemon" relationship="GENERALIZATION">
+      <point x="-51.999532920004526" y="1.916608053136315E-4" />
+      <point x="574.0" y="245.41" />
+      <point x="574.0" y="130.64499999999998" />
+      <point x="115.5001524674195" y="-2.3146169311871745E-5" />
+    </edge>
+    <edge source="main.Main" target="main.move.HyperVoice" relationship="CREATE">
+      <point x="-42.2696927449654" y="-31.5" />
+      <point x="72.20101414695534" y="-86.66247080579504" />
+      <point x="2030.9223358217919" y="-86.66247080579504" />
+      <point x="0.0" y="-14.0" />
+    </edge>
+    <edge source="main.Main" target="main.move.Slam" relationship="CREATE">
+      <point x="-30.0" y="31.5" />
+      <point x="84.47070689192074" y="613.1908102876449" />
+      <point x="1138.7879882124082" y="613.1908102876449" />
+      <point x="-1.8318502870104112" y="14.0" />
+    </edge>
+    <edge source="main.Main" target="main.move.AncientPower" relationship="CREATE">
+      <point x="46.5" y="31.5" />
+      <point x="160.97070689192074" y="568.1908102876449" />
+      <point x="1776.3389039067217" y="568.1908102876449" />
+      <point x="0.0" y="44.0" />
+    </edge>
+    <edge source="main.pokemon.Zweilous" target="main.pokemon.ExtendedPokemon" relationship="GENERALIZATION">
+      <point x="59.00021778460251" y="4.983556484603469E-4" />
+      <point x="574.0" y="262.429" />
+      <point x="574.0" y="130.64499999999998" />
+      <point x="115.5001524674195" y="-2.3146169311871745E-5" />
+    </edge>
+    <edge source="main.Main" target="main.move.DragonPulse" relationship="CREATE">
+      <point x="-74.5" y="-31.5" />
+      <point x="63.23498769075397" y="14.0" />
+    </edge>
+    <edge source="main.pokemon.Audino" target="main.pokemon.ExtendedPokemon" relationship="GENERALIZATION">
+      <point x="-44.500267795895866" y="14.000412028420456" />
+      <point x="745.311" y="315.0" />
+      <point x="574.0" y="315.0" />
+      <point x="574.0" y="130.64499999999998" />
+      <point x="115.5001524674195" y="-2.3146169311871745E-5" />
+    </edge>
+    <edge source="main.Main" target="main.move.Refresh" relationship="CREATE">
+      <point x="-48.2696927449654" y="-31.5" />
+      <point x="66.20101414695534" y="-92.66247080579504" />
+      <point x="2113.922335821792" y="-92.66247080579504" />
+      <point x="2113.922335821792" y="453.96938041728794" />
+      <point x="123.5" y="0.0" />
+    </edge>
+    <edge source="main.Main" target="main.move.WildCharge" relationship="CREATE">
+      <point x="-82.0" y="0.0" />
+      <point x="-174.76428079883323" y="457.6908102876449" />
+      <point x="-174.76428079883323" y="-107.66247080579504" />
+      <point x="1400.2689633558896" y="-107.66247080579504" />
+      <point x="0.0" y="-44.0" />
+    </edge>
+    <edge source="main.Main" target="main.move.FocusEnergy" relationship="CREATE">
+      <point x="82.0" y="10.5" />
+      <point x="-123.5" y="24.864279771492363" />
+    </edge>
+    <edge source="main.Main" target="main.move.DoubleHit" relationship="CREATE">
+      <point x="40.5" y="31.5" />
+      <point x="154.97070689192074" y="562.1908102876449" />
+      <point x="1500.9588846084005" y="562.1908102876449" />
+      <point x="-28.57248213641583" y="14.0" />
+    </edge>
+    <edge source="main.Main" target="main.move.ConfuseRay" relationship="CREATE">
+      <point x="82.0" y="0.0" />
+      <point x="388.8840411069021" y="457.6908102876449" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="main.pokemon.Lileep" target="main.pokemon.ExtendedPokemon" relationship="GENERALIZATION">
+      <point x="3.9681016028225713E-4" y="13.999864737867952" />
+      <point x="954.969" y="315.0" />
+      <point x="574.0" y="315.0" />
+      <point x="574.0" y="130.64499999999998" />
+      <point x="115.5001524674195" y="-2.3146169311871745E-5" />
+    </edge>
+    <edge source="main.Main" target="main.move.StoneEdge" relationship="CREATE">
+      <point x="-31.769692744965397" y="-31.5" />
+      <point x="82.70101414695534" y="17.83752919420496" />
+      <point x="-156.5" y="0.0" />
+    </edge>
+    <edge source="main.Main" target="main.pokemon.Audino" relationship="CREATE">
+      <point x="0.0" y="31.5" />
+      <point x="114.47070689192074" y="583.1908102876449" />
+      <point x="1020.4686031898398" y="583.1908102876449" />
+      <point x="1020.4686031898398" y="139.46157500054431" />
+      <point x="52.0" y="-5.9250129710352155" />
+    </edge>
+    <edge source="main.pokemon.Deino" target="main.pokemon.ExtendedPokemon" relationship="GENERALIZATION">
+      <point x="4.865348363409794E-4" y="13.999846400945444" />
+      <point x="813.48" y="315.0" />
+      <point x="574.0" y="315.0" />
+      <point x="574.0" y="130.64499999999998" />
+      <point x="115.5001524674195" y="-2.3146169311871745E-5" />
+    </edge>
+    <edge source="main.Main" target="main.pokemon.Deino" relationship="CREATE">
+      <point x="30.0" y="31.5" />
+      <point x="144.47070689192074" y="551.6908102876449" />
+      <point x="798.48" y="551.6908102876449" />
+      <point x="-14.999513465163659" y="14.0" />
+    </edge>
+    <edge source="main.Main" target="main.move.Rest" relationship="CREATE">
+      <point x="8.230307255034603" y="-31.5" />
+      <point x="-116.0" y="31.5" />
+    </edge>
+    <edge source="main.Main" target="main.pokemon.Zweilous" relationship="CREATE">
+      <point x="23.230307255034603" y="-31.5" />
+      <point x="137.70101414695534" y="317.64620629776937" />
+      <point x="481.8887822153975" y="317.64620629776937" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="main.Main" target="main.pokemon.Cradily" relationship="CREATE">
+      <point x="-16.769692744965397" y="-31.5" />
+      <point x="97.70101414695534" y="41.83752919420496" />
+      <point x="654.3665329200046" y="41.83752919420496" />
+      <point x="0.0" y="-14.0" />
+    </edge>
+    <edge source="main.Main" target="main.pokemon.Hydreigon" relationship="CREATE">
+      <point x="61.5" y="31.5" />
+      <point x="175.97070689192074" y="506.6908102876449" />
+      <point x="648.1807448094546" y="506.6908102876449" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="main.Main" target="main.pokemon.Lileep" relationship="CREATE">
+      <point x="-15.0" y="31.5" />
+      <point x="99.47070689192074" y="598.1908102876449" />
+      <point x="969.969" y="598.1908102876449" />
+      <point x="15.000396810160282" y="13.999999999999986" />
+    </edge>
+    <edge source="main.Main" target="main.move.Constrict" relationship="CREATE">
+      <point x="-82.0" y="-15.0" />
+      <point x="-159.76428079883323" y="442.6908102876449" />
+      <point x="-159.76428079883323" y="-76.16247080579504" />
+      <point x="1610.0313667448163" y="-76.16247080579504" />
+      <point x="1610.0313667448163" y="303.150327100369" />
+      <point x="124.5" y="-28.369932849365966" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.4291901255954959" showDependencies="true" x="979.5" y="262.9999999999999" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
